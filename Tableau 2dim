@@ -1,0 +1,14 @@
+private String myMap[][];
+
+    public void getMapFromDatabase(String mapName) {
+        // CODE TO GET MAP FROM DB
+        // .....
+        String longTextmMapFromDB = "la map";
+        String mapParts[] = longTextmMapFromDB.split(" ");
+
+        int y = 0;
+        for (int x = 0; x < mapParts.length; x++) {
+            if (mapParts[x].equals("x")) y++;
+            else myMap[x][y] = mapParts[x];
+        }
+    }
