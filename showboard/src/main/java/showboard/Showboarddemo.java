@@ -48,7 +48,7 @@ public class Showboarddemo extends Observable implements Runnable {
     private static final int       timeLoop            = 300;
 
     /** The Constant sizeFrameCloseView is the size of the view frames. */
-    private static final int       sizeFrame           = 400;
+    private static final int       sizeFrame           = 4000;
 
     /** The Constant widthBetweenFrame. */
     private static final int       widthBetweenFrame   = 20;
