@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Observable;
 
 import element.Element;
-import model.dao.LorannDAO;
+import dao.LorannDAO;
 import motionless.MotionlessElementFactory;
 
 public class Map extends Observable implements IMap {

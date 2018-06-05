@@ -1,4 +1,4 @@
-package model.dao;
+package dao;
 
 import java.io.File;
 import java.io.InputStream;
