@@ -1,12 +1,14 @@
 package view;
 
+import java.awt.event.KeyEvent;
+
 /**
- * <h1>The Interface IView.</h1>
+ * <h1>Interface ILorannView.</h1>
  *
- * @author Jean-Aymeric DIET jadiet@cesi.fr
+ * @author group2
  * @version 1.0
  */
-public interface IView {
+public interface ILorannView {
 
     /**
      * Display message.
@@ -15,4 +17,6 @@ public interface IView {
      *            the message
      */
     void displayMessage(String message);
+	void keyReleased(KeyEvent keyEvent);
+	void keyTyped(KeyEvent keyEvent);
 }
