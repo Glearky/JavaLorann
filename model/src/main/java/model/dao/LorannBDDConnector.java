@@ -12,7 +12,7 @@ import java.sql.Statement;
  * @author Jean-Aymeric DIET jadiet@cesi.fr
  * @version 1.0
  */
-final class LorannBDDConnector {
+public final class LorannBDDConnector extends AbstractDAO {
 
     /** The instance. */
     private static LorannBDDConnector instance;
@@ -21,7 +21,7 @@ final class LorannBDDConnector {
     private static String                  user     = "root";
 
     /** The password. */
-    private static String                  password = "";
+    private static String                  password = "test";
 
     /** The url. */
     private static String                  url      = "jdbc:mysql://localhost/lorann?useSSL=false&serverTimezone=UTC";
@@ -35,7 +35,7 @@ final class LorannBDDConnector {
     /**
      * Instantiates a new boulder dash BDD connector.
      */
-    private LorannBDDConnector() {
+    public LorannBDDConnector() {
         this.open();
     }
 
